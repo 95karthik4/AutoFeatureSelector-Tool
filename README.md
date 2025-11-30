@@ -32,22 +32,6 @@ The tool takes a dataset (e.g., FIFA 19 Player Skills) and a target variable (e.
 
 ---
 
-### 💻 Usage Example
-
-```python
-from Task7_AutoFeatureSelector_dn import autoFeatureSelector
-
-# Run the selector
-best_features, summary_df = autoFeatureSelector(
-    dataset_path="fifa19.csv",
-    methods=['pearson', 'chi-square', 'rfe', 'log-reg', 'rf', 'lgbm'],
-    num_feats=30
-)
-
-print(best_features)
-
----
-
 ### 📈 Sample Output
 *The table below shows the top features selected by the tool on the FIFA 19 dataset. Features with 6 votes were selected by ALL methods.*
 
@@ -70,3 +54,22 @@ I specialize in building tools that make Data Science workflows more efficient a
 * 📍 Toronto, ON
 * 💼 [LinkedIn Profile](https://linkedin.com/in/4karthik95)
 * 📧 Aero13027@gmail.com
+
+---
+
+### 💻 Usage Example
+
+```python
+from Task7_AutoFeatureSelector_dn import autoFeatureSelector
+
+# Run the selector
+best_features, summary_df = autoFeatureSelector(
+    dataset_path="fifa19.csv",
+    methods=['pearson', 'chi-square', 'rfe', 'log-reg', 'rf', 'lgbm'],
+    num_feats=30
+)
+
+print(best_features)
+
+---
+
