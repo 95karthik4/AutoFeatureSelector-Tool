@@ -46,6 +46,8 @@ best_features, summary_df = autoFeatureSelector(
 
 print(best_features)
 
+---
+
 ### 📈 Sample Output
 *The table below shows the top features selected by the tool on the FIFA 19 dataset. Features with 6 votes were selected by ALL methods.*
 
