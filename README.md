@@ -1,4 +1,4 @@
-# 🎯 AutoFeatureSelector
+# 🎯 AutoFeatureSelector [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/95karthik4/AutoFeatureSelector-Tool)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![Scikit-Learn](https://img.shields.io/badge/Library-Scikit--Learn-orange) ![LightGBM](https://img.shields.io/badge/Library-LightGBM-green) ![Status](https://img.shields.io/badge/Status-Completed-success)
 
